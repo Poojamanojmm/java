@@ -10,8 +10,7 @@ public void display()
 System.out.println("\nCPU info");
 System.out.println("CPU price is "+price);
 }
-class Processor /* nested class named "Processor" inside the CPU class. This nested class
-will contain properties and behaviors related to the processor of the CPU. */
+class Processor 
 {
 int cores;
 String producer;
@@ -27,8 +26,7 @@ System.out.println("No. of Cores = "+cores);
 System.out.println("Manufacturer = "+producer);
 }
 }
-static class RAM /* nested static class named "RAM" inside the CPU class. This nested class will
-contain properties & behaviors related to the RAM of the CPU.*/
+static class RAM
 {
 int memory;
 String producer;
